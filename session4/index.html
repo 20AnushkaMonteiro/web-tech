@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> Student Survey</h2>
+    <form action="/action_page.php">
+
+        <p>Name*:<input type="text" name="Name" value="" required></p>
+
+        
+        <p>Email*:<input type="text" name="Email" value="" required></p>
+
+        <p>Number*:<input type="text" name="Number" value="" required></p>
+
+        What year are you in*:<select required>
+            <option value="">Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            </select>
+
+
+        <form>
+            <p>Which electronic device do you use?</p>
+            <input type="Checkbox" name="electronic" value="Computer" > Computer<br>
+            <input type="Checkbox" name="electronic" value="Ebook reader"> Ebook reader<br>
+            <input type="Checkbox" name="electronic" value="Smartphone"> Smartphone
+        </form>
+
+        <form>
+            <p>How many hours a day do you spend using electronic devices?</p>
+            <input type="radio" name="hours" value="1 hours" > Computer<br>
+            <input type="radio" name="hours" value="2 hours"> Ebook reader<br>
+            <input type="radio" name="hours" value="3 hours +"> Smartphone
+        </form>
+
+        <form action="/action_page.php">
+            <p>Any other comment</p>
+            <textarea rows="4" cols="50" name="Comment"> </textarea>
+        </form>
+
+        <p>
+            <input type="submit" value="Submit">
+    </form>
+
+
+</body>
+
+</html>
